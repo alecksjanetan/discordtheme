@@ -241,10 +241,10 @@
 }
 @keyframes cv-spinner-glow {
   from {
-    filter: drop-shadow(0 0 3px var(--main-color))
+    filter: none;
   }
   to {
-    filter: drop-shadow(0 0 3px var(--main-color)) drop-shadow(0 0 15px var(--main-color))
+    filter: none;
   }
 }
 @keyframes cv-spinner-pulse {
@@ -688,7 +688,7 @@ body, button, input, select, textarea, ::placeholder {
 }
 .wrapper-NhbLHG.modeUnread-3Cxepe .content-1gYQeQ .mainContent-20q_Hp .icon-2W8DHg {
   color: var(--channel-unread);
-  filter: drop-shadow(0 0 3px);
+  filter: none;
   opacity: 1
 }
 .wrapper-NhbLHG.modeUnread-3Cxepe:hover .content-1gYQeQ .mainContent-20q_Hp .name-28HaxV {
