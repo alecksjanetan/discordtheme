@@ -393,7 +393,7 @@
   border: 3px solid rgba(0, 0, 0, 0);
   border-radius: 50%;
   margin: auto;
-  filter: drop-shadow(0 0 3px var(--main-color));
+  filter: none;
   animation: cv-spin 1s ease-in-out infinite
 }
 .loading-1yrGTe:before {
@@ -504,7 +504,7 @@ body, button, input, select, textarea, ::placeholder {
   font-size: 10px
 }
 .typeWindows-2-g3UY > .wordmark-2u86JB > svg {
-  filter: drop-shadow(0 0 5px var(--main-color));
+  filter: none;
   margin-top: 6px
 }
 .typeWindows-2-g3UY > .wordmark-2u86JB > svg > g > path {
@@ -726,7 +726,7 @@ body, button, input, select, textarea, ::placeholder {
 }
 .wrapper-NhbLHG.modeConnected-NrO4cP .content-1gYQeQ .mainContent-20q_Hp .icon-2W8DHg {
   color: var(--main-color);
-  filter: drop-shadow(0 0 3px)
+  filter: none;
 }
 .wrapper-NhbLHG.modeMuted-2T4MDZ .content-1gYQeQ .mainContent-20q_Hp .icon-2W8DHg, .wrapper-NhbLHG.modeMuted-2T4MDZ .content-1gYQeQ .mainContent-20q_Hp .name-28HaxV {
   color: var(--muted-color)
@@ -1267,7 +1267,7 @@ body, button, input, select, textarea, ::placeholder {
   color: #fff
 }
 .privateChannels-oVe7HL .channel-1Shao0 .interactive-1vLZ_I.interactiveSelected-29CP8y .activityEmoji-24oKjc, .privateChannels-oVe7HL .channel-1Shao0 .interactive-1vLZ_I.interactiveSelected-29CP8y .icon-Lupfh- {
-  filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.7))
+  filter: none;
 }
 .privateChannels-oVe7HL .channel-1Shao0 .interactive-1vLZ_I.interactiveSelected-29CP8y .activityText-ev7Z1T strong {
   color: #fff
@@ -2114,7 +2114,7 @@ textarea::-webkit-scrollbar {
   height: 100%;
   background: rgba(0, 0, 0, 0);
   animation: none;
-  filter: drop-shadow(0 0 3px var(--main-color))
+  filter: none;
 }
 .wanderingCubesItem-3Us-UG:before, .wanderingCubesItem-3Us-UG:after {
   content: "";
@@ -2314,7 +2314,7 @@ textarea::-webkit-scrollbar {
 .icon-2Ug6UV {
   padding: 1px;
   color: var(--main-color);
-  filter: drop-shadow(0 0 3px var(--main-color))
+  filter: none;
 }
 .folder-241Joy {
   background-color: rgba(0, 0, 0, 0);
@@ -2373,7 +2373,7 @@ textarea::-webkit-scrollbar {
 }
 .container-ZMc96U .children-3xh0VB .icon-2xnN2Y {
   color: #fc94af;
-  filter: drop-shadow(0 0 3px);
+  filter: none;
   width: 22px
 }
 .container-ZMc96U .base-21yXnu {
@@ -2525,11 +2525,11 @@ textarea::-webkit-scrollbar {
 }
 .toolbar-3_r2xA .iconWrapper-2awDjA > svg:not(.icon-2xnN2Y) {
   color: #fc94af;
-  filter: drop-shadow(0 0 5px);
+  filter: none;
   transition: filter .3s ease-in-out
 }
 .toolbar-3_r2xA .iconWrapper-2awDjA:hover > svg:not(.icon-2xnN2Y) {
-  filter: drop-shadow(0 0 5px) drop-shadow(0 0 10px)
+  filter: none;
 }
 .toolbar-3_r2xA .iconWrapper-2awDjA .iconBadge-3Mmg92 {
   background-color: var(--main-color)
@@ -3047,11 +3047,11 @@ textarea::-webkit-scrollbar {
   color: #fff
 }
 .members-3WRCEx .member-2gU6Ar.selected-1-Z6gm .ownerIcon-255uKo {
-  filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.7));
+  filter: none;
   opacity: .7
 }
 .members-3WRCEx .member-2gU6Ar.selected-1-Z6gm .icon-Lupfh-, .members-3WRCEx .member-2gU6Ar.selected-1-Z6gm .activityEmoji-SDBJp8 {
-  filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.7))
+  filter: none;
 }
 .members-3WRCEx .memberGroupsPlaceholder-9tqX9V {
   margin: 0 25%;
@@ -3316,7 +3316,7 @@ textarea::-webkit-scrollbar {
 }
 .icon-3OHhZU {
   color: var(--main-color);
-  filter: drop-shadow(0 0 3px);
+  filter: none;
   width: 22px
 }
 .container-3i3IzO {
@@ -4342,7 +4342,7 @@ code {
 }
 .mediaBarInteraction-tUE5dq:hover .mediaBarWrapper-33h1oY, .mediaBarInteractionDragging-3XLL8k .mediaBarWrapper-33h1oY {
   box-shadow: none;
-  filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.3))
+  filter: none;
 }
 .mediaBarInteraction-tUE5dq:hover .bubble-3XikHF, .mediaBarInteractionDragging-3XLL8k .bubble-3XikHF {
   transform: translateX(-50%)
@@ -5812,7 +5812,7 @@ code {
 }
 .content-A8TzKf .categoryText-3B1jLN {
   color: #fff;
-  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.7))
+  filter: none;
 }
 .content-A8TzKf .result-pzZrwj:after {
   transition: all .15s ease-in-out
@@ -7752,7 +7752,7 @@ code {
   text-decoration: none !important
 }
 .mask-1FEkla {
-  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5))
+  filter: none;
 }
 .botTag-7aX5WZ {
   padding: 1px 2px;
@@ -8125,7 +8125,7 @@ code {
   background: rgba(0, 0, 0, 0)
 }
 .BE-badge {
-  filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.7))
+  filter: none;
 }
 .creationDate, .joinedAtDate, .lastMessageDate {
   font-size: 10px;
