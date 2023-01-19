@@ -595,7 +595,7 @@ body, button, input, select, textarea, ::placeholder {
 }
 .container-1NXEtd .animatedContainer-2laTjx {
   background: rgba(0, 0, 0, 0);
-  box-shadow: none
+  box-shadow: none;
 }
 .container-1NXEtd .bannerImage-ubW8K- {
   width: var(--channels-width);
@@ -1655,7 +1655,7 @@ body, button, input, select, textarea, ::placeholder {
 .replyBar-1oi75v, .threadSuggestionBar-3ExSyc {
   background: rgba(0, 0, 0, 0);
   border: 2px solid rgba(0, 0, 0, 0);
-  box-shadow: none
+  box-shadow: none;
 }
 .mentionButton-3C5YMI {
   padding: 4px;
@@ -1781,7 +1781,7 @@ body, button, input, select, textarea, ::placeholder {
   color: #fff;
   font-size: 12px;
   font-weight: 600;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, .25);
+  text-shadow: none;
   line-height: 12px;
   transition: all .3s ease-in-out
 }
@@ -1905,7 +1905,7 @@ body, button, input, select, textarea, ::placeholder {
   color: #fff
 }
 .lookLink-15mFoz.colorWhite-1H92hK:hover {
-  text-shadow: 0 0 3px
+  text-shadow: none;
 }
 .lookLink-15mFoz.colorWhite-1H92hK:hover > .contents-3ca1mk {
   background-image: none
@@ -6684,7 +6684,7 @@ code {
   background-color: var(--hover-color);
   border-radius: 3px;
   color: #fff;
-  text-shadow: 0 0 3px
+  text-shadow: none;
 }
 .resultsBlocked-2lCGyA {
   background-color: rgba(0, 0, 0, 0);
