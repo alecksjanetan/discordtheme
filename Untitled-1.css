@@ -1,3 +1,23 @@
+/**
+ * @name Pink Cinnamoroll
+ * @author ClearVision Team
+ * @version 6.3.0
+ * @description Highly customizable and beautiful theme for BetterDiscord.
+ * @source https://github.com/alecksjanetan/discordtheme.io
+ * @website https://clearvision.github.io
+ * @invite 7pNUC9C
+ * @BDEditor Clear Vision
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@100;300;400;500;700&display=swap');
+@import url('https://github.com/alecksjanetan/discordtheme.io/blob/main/Untitled-1.css');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+@import url('https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css');
+
+
+
+/* Any custom CSS below here */
+
 :root {
     --main-color: #ffb4b4;
   --hover-color: #EDC3BE;
@@ -15,8 +35,8 @@
   --background-saturation: 100%;
   --background-grayscale: 0%;
   --background-invert: 0%;
-  --background-blur: 0px;
-  --background-overlay: rgba(254, 215, 215, 0.2);
+  --background-blur: 0%;
+  --background-overlay: rgba(255, 255, 255, 0.7);
   --user-popout-image: url('https://clearvision.github.io/images/sapphire.jpg');
   --user-popout-position: center;
   --user-popout-size: cover;
@@ -499,7 +519,7 @@ body, button, input, select, textarea, ::placeholder {
   order: 1
 }
 .typeWindows-2-g3UY > .wordmark-2u86JB:before {
-  content: "ClearVision";
+  content: "alecksjanetan";
   color: rgba(255, 255, 255, .7);
   font-size: 14px;
   text-shadow: 0 0 3px #000
@@ -555,13 +575,13 @@ body, button, input, select, textarea, ::placeholder {
   order: 1
 }
 .typeMacOS-3V4xXE:before {
-  content: "CV";
+  content: "";
   color: var(--main-color);
   font-weight: 700;
-  text-shadow: 0 0 3px
+  text-shadow: none;
 }
 .typeMacOS-3V4xXE:after {
-  content: "6.3.0";
+  content: "";
   color: rgba(255, 255, 255, .3)
 }
 .container-27tlK1 {
@@ -595,7 +615,7 @@ body, button, input, select, textarea, ::placeholder {
   color: #fff;
   font-family: var(--main-font);
   font-weight: 600;
-  text-shadow: 0 0 3px #000
+  text-shadow: none;
 }
 .container-1NXEtd .header-3OsQeK:hover, .selected-1GtAC5 v .container-1NXEtd .header-3OsQeK {
   background-color: rgba(255, 255, 255, .1)
@@ -687,11 +707,12 @@ body, button, input, select, textarea, ::placeholder {
   background: rgba(255, 255, 255, .1)
 }
 .containerDefault-YUSmu3 .wrapper-NhbLHG:hover .content-1gYQeQ .mainContent-20q_Hp .icon-2W8DHg, .containerDefault-YUSmu3 .wrapper-NhbLHG:hover .content-1gYQeQ .mainContent-20q_Hp .name-28HaxV {
-  color: rgba(255, 255, 255, .7)
+  color: rgba(255, 255, 255, 1);
+
 }
 .wrapper-NhbLHG.modeUnread-3Cxepe .content-1gYQeQ .mainContent-20q_Hp .name-28HaxV {
   color: var(--channel-unread);
-  text-shadow: 0 0 3px
+  text-shadow: none;
 }
 .wrapper-NhbLHG.modeUnread-3Cxepe .content-1gYQeQ .mainContent-20q_Hp .icon-2W8DHg {
   color: var(--channel-unread);
@@ -713,13 +734,13 @@ body, button, input, select, textarea, ::placeholder {
   animation: cv-channel-select .3s ease-in-out
 }
 .containerDefault-YUSmu3 .wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ .icon-2W8DHg, .containerDefault-YUSmu3 .wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ .name-28HaxV {
-  color: var(--channel-text-selected)
+  color: white
 }
 .containerDefault-YUSmu3 .wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ .live-1V2D-f {
   color: var(--channel-text-selected) !important
 }
 .wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ .actionIcon-2sw4Sl {
-  opacity: .7
+  opacity: 1
 }
 .wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ .actionIcon-2sw4Sl:hover {
   opacity: 1
@@ -729,7 +750,7 @@ body, button, input, select, textarea, ::placeholder {
 }
 .wrapper-NhbLHG.modeConnected-NrO4cP .content-1gYQeQ .mainContent-20q_Hp .name-28HaxV {
   color: var(--main-color);
-  text-shadow: 0 0 3px
+  text-shadow: none;
 }
 .wrapper-NhbLHG.modeConnected-NrO4cP .content-1gYQeQ .mainContent-20q_Hp .icon-2W8DHg {
   color: var(--main-color);
@@ -771,7 +792,7 @@ body, button, input, select, textarea, ::placeholder {
 }
 .modeConnected-NrO4cP .users-2JoyGL {
   color: var(--main-color);
-  text-shadow: 0 0 1px
+  text-shadow: none;
 }
 .listDefault-2F-w65 {
   padding-left: 24px
@@ -972,7 +993,7 @@ body, button, input, select, textarea, ::placeholder {
   box-shadow: 0 -2px 10px rgba(0, 0, 0, calc(var(--background-shading) * 0.3))
 }
 .container-YkUktl > .flex-3BkGQD, .container-1zzFcN > .flex-3BkGQD {
-  background: rgba(0, 0, 0, .3);
+  background: rgba(255, 255, 255, .63);
   border-radius: 15px
 }
 .container-YkUktl > .flex-3BkGQD > :nth-child(n+2), .container-1zzFcN > .flex-3BkGQD > :nth-child(n+2) {
@@ -997,15 +1018,16 @@ body, button, input, select, textarea, ::placeholder {
   background-position: center;
   background-size: 18px;
   background-repeat: no-repeat;
-  color: #fff;
-  opacity: .5;
+  color: var(--main-color);
+  opacity: 1;
   transition: all .1s ease-in-out
 }
 .button-12Fmur.enabled-9OeuTA:hover {
   background: rgba(0, 0, 0, 0)
 }
 .button-12Fmur:hover > .contents-3ca1mk > svg {
-  opacity: .7
+  opacity: 1;
+  color: #eb9393;
 }
 .button-12Fmur.disabled-GROwTe > .contents-3ca1mk > svg {
   opacity: .1
@@ -1037,17 +1059,17 @@ body, button, input, select, textarea, ::placeholder {
   transition: all .5s ease-in-out
 }
 .container-YkUktl:before {
-  content: "ClearVision";
-  right: 50%;
-  text-align: right;
-  transform: translateX(50%)
+  content: "alecksjanetan©";
+  right: 30%;
+  text-align: center;
+
 }
 .container-YkUktl:after {
-  content: "v6.3.0";
+  content: "";
   left: 50%;
   text-align: left;
   opacity: 0;
-  transform: translateX(50%) rotateX(90deg)
+ 
 }
 .container-YkUktl:hover:before {
   margin-right: 1px;
@@ -1063,7 +1085,7 @@ body, button, input, select, textarea, ::placeholder {
   width: auto
 }
 .container-YkUktl .withTagAsButton-OsgQ9L:hover, .container-YkUktl .withTagless-10ooWt:hover {
-  background-color: rgba(0, 0, 0, .3);
+  background-color: rgba(255, 255, 255, 0.63);
   color: #fff
 }
 .container-YkUktl .avatar-1EWyVD {
@@ -1324,7 +1346,7 @@ body, button, input, select, textarea, ::placeholder {
 .gatedContent-31-gID .title-FyH9jw {
   color: var(--danger-color);
   font-weight: 600;
-  text-shadow: 0 0 3px #000
+  text-shadow: none;
 }
 .gatedContent-31-gID .description-fPkcPm {
   color: rgba(255, 255, 255, .7)
@@ -1604,7 +1626,7 @@ body, button, input, select, textarea, ::placeholder {
   color: rgba(255, 255, 255, .3)
 }
 .channelTextArea-1VQBuV {
-  background: rgba(0, 0, 0, .6);
+  background: rgba(255, 255, 255, .63);
   transition: all .15s ease-in-out
 }
 .channelTextArea-1VQBuV:focus-within {
@@ -1779,7 +1801,7 @@ body, button, input, select, textarea, ::placeholder {
   transition: all .1s ease-in-out
 }
 .welcomeMessage-3_Mcht .itemContainer-WiE19S a:hover {
-  text-shadow: 0 0 1px;
+  text-shadow: none;
   text-decoration: none !important
 }
 .wrapper-22ayhK {
@@ -1788,7 +1810,7 @@ body, button, input, select, textarea, ::placeholder {
   color: #fff;
   font-size: 12px;
   font-weight: 600;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, .25);
+  text-shadow: none;
   line-height: 12px;
   transition: all .3s ease-in-out
 }
@@ -1803,7 +1825,7 @@ body, button, input, select, textarea, ::placeholder {
   box-shadow: 0 0 10px -3px var(--main-color), 0 0 0 1px var(--main-color);
   color: #fff;
   font-weight: 600;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, .25);
+  text-shadow: none;
   transition: all .3s ease-in-out
 }
 .numberBadge-37OJ3S {
@@ -1912,7 +1934,7 @@ body, button, input, select, textarea, ::placeholder {
   color: #fff
 }
 .lookLink-15mFoz.colorWhite-1H92hK:hover {
-  text-shadow: 0 0 3px
+  text-shadow: none;
 }
 .lookLink-15mFoz.colorWhite-1H92hK:hover > .contents-3ca1mk {
   background-image: none
@@ -2026,11 +2048,11 @@ body, button, input, select, textarea, ::placeholder {
   color: #fff
 }
 .item-2idW98 .radioBar-3w9XY- {
-  background-color: rgba(0, 0, 0, .4);
+  background-color: rgba(255, 255, 255, 0.63);
   border-left: 3px solid var(--radio-bar-accent-color)
 }
 [aria-checked=true].item-2idW98 .radioBar-3w9XY- {
-  background-color: var(--radio-bar-accent-color, var(--main-color))
+  background-color: var(--main-color)
 }
 .item-2idW98 .radioIconForeground-2BMavi {
   color: #fff
@@ -2080,7 +2102,8 @@ textarea::-webkit-scrollbar {
   display: none
 }
 .none-2-_0dP::-webkit-scrollbar {
-  width: 0px !important
+  width: 0px !important;
+  background: rgba(255, 255, 255, 0.63);
 }
 .thin-31rlnD::-webkit-scrollbar {
   width: 10px !important
@@ -2257,10 +2280,9 @@ textarea::-webkit-scrollbar {
   padding-top: 48px
 }
 .platform-osx .wrapper-1_HaEi:before {
-  content: "";
+
   height: 48px;
   margin-top: -48px;
-  background-color: rgba(0, 0, 0, .3)
 }
 .wrapper-1_HaEi {
   box-shadow: inset 0 0 20px rgba(0, 0, 0, calc(var(--background-shading) * 0.3))
@@ -2274,6 +2296,8 @@ textarea::-webkit-scrollbar {
 .homeIcon-r0w4ny {
   width: 100%;
   height: 100%;
+  border-radius: 100%;
+
   background: var(--home-icon) var(--home-position)/var(--home-size) no-repeat
 }
 .homeIcon-r0w4ny > path {
@@ -2301,7 +2325,7 @@ textarea::-webkit-scrollbar {
   transition: all .3s ease-in-out
 }
 .wrapper-3kah-n:hover .childWrapper-1j_1ub, .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub {
-  background-color: var(--main-color);
+  background-color: transparent;
   color: #fff
 }
 .dragInner-1CUBf_ {
@@ -2380,18 +2404,18 @@ textarea::-webkit-scrollbar {
 }
 .container-ZMc96U .children-3xh0VB .icon-2xnN2Y {
   color: black;
-  filter: drop-shadow(0 0 3px);
+  filter: drop-shadow(none);
   width: 22px
 }
 .container-ZMc96U .base-21yXnu {
   margin-left: 0;
   color: #fff;
-  text-shadow: 0 0 3px #000;
+  text-shadow: none;
   font-family: var(--main-font)
 }
 .container-ZMc96U .base-21yXnu.muted-eZM05q {
   color: rgba(255, 255, 255, .3);
-  text-shadow: none
+  text-shadow: none;
 }
 .container-ZMc96U .topic-11NuQZ {
   color: rgba(255, 255, 255, .5)
@@ -2401,7 +2425,7 @@ textarea::-webkit-scrollbar {
   transition: all .1s ease-in-out
 }
 .container-ZMc96U .topic-11NuQZ a:hover {
-  text-shadow: 0 0 1px;
+  text-shadow: none;
   text-decoration: none !important
 }
 .container-ZMc96U .akaBadge-3i7V3p {
@@ -2532,11 +2556,11 @@ textarea::-webkit-scrollbar {
 }
 .toolbar-3_r2xA .iconWrapper-2awDjA > svg:not(.icon-2xnN2Y) {
   color: black;
-  filter: drop-shadow(0 0 5px);
+  filter: drop-shadow(none);
   transition: filter .3s ease-in-out
 }
 .toolbar-3_r2xA .iconWrapper-2awDjA:hover > svg:not(.icon-2xnN2Y) {
-  filter: drop-shadow(0 0 5px) drop-shadow(0 0 10px)
+  filter: drop-shadow(none) drop-shadow(none)
 }
 .toolbar-3_r2xA .iconWrapper-2awDjA .iconBadge-3Mmg92 {
   background-color: var(--main-color)
@@ -2666,7 +2690,7 @@ textarea::-webkit-scrollbar {
 }
 .activityFeed-1C0EmJ .enabled-5QKLzu:hover, .activityFeed-1C0EmJ .memberListItem-3V-x8Q:hover {
   background-color: var(--main-color);
-  color: #fff
+  color: #fff;
 }
 .activityFeed-1C0EmJ .avatarMask-2Mo_pM {
   -webkit-mask: none;
@@ -2691,7 +2715,7 @@ textarea::-webkit-scrollbar {
   background-color: rgba(0, 0, 0, .1)
 }
 .theme-dark .container-2cd8Mz {
-  background-color: rgba(0, 0, 0, 0)
+  background-color: rgba(255, 255, 255, 0.63)
 }
 .peopleColumn-1wMU14 {
   background: rgba(0, 0, 0, calc(var(--background-shading) * 0.4))
@@ -2811,13 +2835,13 @@ textarea::-webkit-scrollbar {
   color: rgba(255, 255, 255, .3)
 }
 .userProfileOuterUnthemed-2b2rsv {
-  background-color: rgba(0, 0, 0, .4)
+  background-color: rgba(255, 255, 255, 0.63)
 }
 .userProfileOuterUnthemed-2b2rsv .userPanelInnerThemed-2xZFjl {
-  background: rgba(0, 0, 0, 0)
+  background: rgba(255, 255, 255, 0)
 }
 .overlayBackground-1KgwVi {
-  background-color: rgba(0, 0, 0, .4)
+  background-color: rgba(255, 255, 255, 0.4)
 }
 .container-36u7Lw, .applicationStore-2nk7Lo {
   background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0.5))
@@ -3023,7 +3047,7 @@ textarea::-webkit-scrollbar {
 }
 .members-3WRCEx .member-2gU6Ar.selected-1-Z6gm .username-i5-wv- > span {
   -webkit-text-fill-color: #fff;
-  text-shadow: 0 0 3px rgba(0, 0, 0, .7)
+  text-shadow: none;
 }
 .members-3WRCEx .member-2gU6Ar.selected-1-Z6gm .username-i5-wv- > span:after {
   right: 0
@@ -3047,7 +3071,7 @@ textarea::-webkit-scrollbar {
   color: #fff
 }
 .members-3WRCEx .member-2gU6Ar.selected-1-Z6gm .activityText-1rR-8O {
-  text-shadow: 0 0 3px rgba(0, 0, 0, .7);
+  text-shadow: none;
   color: rgba(255, 255, 255, .7)
 }
 .members-3WRCEx .member-2gU6Ar.selected-1-Z6gm .activityText-1rR-8O strong {
@@ -3122,7 +3146,7 @@ textarea::-webkit-scrollbar {
 .contents-2MsGLg > img ~ .header-2jRmjb > .headerText-2z4IhQ > .username-h_Y3Us::after {
   content: none;
   color: currentcolor;
-  text-shadow: 0 0 2px currentcolor;
+  text-shadow: none;
   border: 1px solid;
   border-radius: 6px;
   margin-left: 8px;
@@ -3455,7 +3479,7 @@ textarea::-webkit-scrollbar {
   transition: all .1s ease-in-out
 }
 .fileNameLink-1odyIc:hover {
-  text-shadow: 0 0 1px;
+  text-shadow: none;
   text-decoration: none !important
 }
 .downloadButton-2HLFWN, .cancelButton-oOSTov {
@@ -4161,7 +4185,7 @@ code {
   transition: all .1s ease-in-out
 }
 .embed-hKpSrO .embedLink-1TLNja:hover {
-  text-shadow: 0 0 1px;
+  text-shadow: none;
   text-decoration: none !important
 }
 .embed-hKpSrO .embedTitleLink-1QbYA- {
@@ -4182,7 +4206,7 @@ code {
   color: rgba(255, 255, 255, .07)
 }
 .embedFull-1HGV2S {
-  background: rgba(0, 0, 0, .3)
+  background: rgba(255, 255, 255, .63)
 }
 .imageError-dy476I {
   filter: grayscale(1) brightness(2);
@@ -4200,7 +4224,7 @@ code {
   transition: all .1s ease-in-out
 }
 .theme-dark .wrapper-1HIH0j .guildName-3G4jq-:hover {
-  text-shadow: 0 0 1px;
+  text-shadow: none;
   text-decoration: none !important
 }
 .theme-dark .wrapper-1HIH0j .guildNameExpired-2Hp80V {
@@ -5568,7 +5592,7 @@ code {
   transition: all .1s ease-in-out
 }
 .container-1ILvLB > section .popoutBottom-15-vLu > a:hover {
-  text-shadow: 0 0 1px;
+  text-shadow: none;
   text-decoration: none !important
 }
 .sparkline-3A-8OK > svg > line {
@@ -6266,7 +6290,7 @@ code {
   background-color: var(--main-color)
 }
 .container-2McqkF .queryContainer-ZunrLZ > .queryText-j8z984 {
-  color: rgba(255, 255, 255, .7)
+  color: rgba(255, 255, 255, .2)
 }
 .container-2McqkF .queryContainer-ZunrLZ > .queryText-j8z984 > strong {
   color: #fff
@@ -6458,7 +6482,7 @@ code {
   background-color: rgba(0, 0, 0, .4)
 }
 .userPopoutOverlayBackground-dKOOda {
-  background-color: rgba(0, 0, 0, .4)
+  background-color: rgba(255, 255, 255, 0.63)
 }
 .userPopoutOverlayBackground-dKOOda > .menu-1QACrS {
   background-color: rgba(0, 0, 0, 0)
@@ -6553,7 +6577,7 @@ code {
   transition: all .1s ease-in-out
 }
 .links-30fqF9:hover {
-  text-shadow: 0 0 1px;
+  text-shadow: none;
   text-decoration: none !important
 }
 .path-lhsLSV {
@@ -6584,7 +6608,7 @@ code {
   justify-content: center;
   background-color: rgba(0, 0, 0, 0);
   color: var(--main-color);
-  text-shadow: 0 0 1px;
+  text-shadow: none;
   transition: all .15s ease-in-out
 }
 .searchResultsWrap-5RVOkx .channelName-3w2Y3c:before {
@@ -6608,8 +6632,9 @@ code {
   background: linear-gradient(to right, var(--main-color) 50%, transparent)
 }
 .searchResultsWrap-5RVOkx .channelName-3w2Y3c:hover {
-  text-shadow: 0 0 3px;
-  text-decoration: none
+  text-shadow: none;
+  text-decoration: none;
+  background: rgb(255,255,255,0.4);
 }
 .searchResultsWrap-5RVOkx .channelName-3w2Y3c:hover:before, .searchResultsWrap-5RVOkx .channelName-3w2Y3c:hover:after {
   opacity: 1
@@ -6691,7 +6716,7 @@ code {
   background-color: var(--hover-color);
   border-radius: 3px;
   color: #fff;
-  text-shadow: 0 0 3px
+  text-shadow: none;
 }
 .resultsBlocked-2lCGyA {
   background-color: rgba(0, 0, 0, 0);
@@ -6862,7 +6887,7 @@ code {
   color: rgba(255, 255, 255, .6)
 }
 .container-20TyK0 {
-  background-color: rgba(0, 0, 0, .8) !important
+  background-color: var(--status-red-600)!important
 }
 .imageUploaderInner-IIRaFr {
   background-color: rgba(255, 255, 255, .05)
@@ -7508,7 +7533,7 @@ code {
   opacity: .2
 }
 .accountProfileCard-lbN7n- {
-  background-color: rgba(0, 0, 0, .4)
+  background-color: rgba(255, 255, 255, 0.63)
 }
 .background-3d_SjE, .fieldList-in8WkP {
   background-color: rgba(0, 0, 0, 0)
@@ -7732,20 +7757,20 @@ code {
 }
 .activityUserPopout-2MzGCj .nameNormal-2fPMD2, .activityProfile-1712BN .nameNormal-2fPMD2 {
   color: var(--main-color);
-  text-shadow: 0 0 5px rgba(0, 0, 0, .5);
+  text-shadow: none;
   font-weight: 600
 }
 .activityUserPopout-2MzGCj .nameNormal-2fPMD2 > .activityName-3YXl6e, .activityProfile-1712BN .nameNormal-2fPMD2 > .activityName-3YXl6e {
   color: inherit
 }
 .activityUserPopout-2MzGCj .nameNormal-2fPMD2 > .activityName-3YXl6e.bodyLink-1E-g-R:hover, .activityProfile-1712BN .nameNormal-2fPMD2 > .activityName-3YXl6e.bodyLink-1E-g-R:hover {
-  text-shadow: 0 0 5px rgba(0, 0, 0, .5), 0 0 1px
+  text-shadow: none;
 }
 .activityUserPopout-2MzGCj .nameNormal-2fPMD2 > .activityName-3YXl6e.textHover-3f_j3D, .activityProfile-1712BN .nameNormal-2fPMD2 > .activityName-3YXl6e.textHover-3f_j3D {
   transition: all .1s ease-in-out
 }
 .activityUserPopout-2MzGCj .nameNormal-2fPMD2 > .activityName-3YXl6e.textHover-3f_j3D:hover, .activityProfile-1712BN .nameNormal-2fPMD2 > .activityName-3YXl6e.textHover-3f_j3D:hover {
-  text-shadow: 0 0 5px rgba(0, 0, 0, .5), 0 0 1px;
+  text-shadow: none;
   text-decoration: none
 }
 .activityUserPopout-2MzGCj .timestamp-2f1NmH, .activityProfile-1712BN .timestamp-2f1NmH {
@@ -7755,7 +7780,7 @@ code {
   transition: all .1s ease-in-out
 }
 .activityUserPopout-2MzGCj .bodyLink-1E-g-R:hover, .activityProfile-1712BN .bodyLink-1E-g-R:hover {
-  text-shadow: 0 0 1px;
+  text-shadow: none;
   text-decoration: none !important
 }
 .mask-1FEkla {
@@ -7766,7 +7791,7 @@ code {
   background: rgba(255, 255, 255, .1);
   color: rgba(255, 255, 255, .6);
   font-weight: 700;
-  text-shadow: 0 0 1px rgba(0, 0, 0, .3);
+  text-shadow: none;
   border-radius: 3px
 }
 .botTagInvert-1nKcq_ {
@@ -8036,7 +8061,7 @@ code {
   transition: all .1s ease-in-out
 }
 .side-2ur1Qk #bd-settings-sidebar a:hover {
-  text-shadow: 0 0 1px;
+  text-shadow: none;
   text-decoration: none !important
 }
 .replyer, .btn-quote, .citar-btn {
@@ -8052,11 +8077,11 @@ code {
   transition: all .1s ease-in-out
 }
 #pluginNotice #outdatedPlugins span:hover {
-  text-shadow: 0 0 1px;
+  text-shadow: none;
   text-decoration: none !important
 }
 .bd-search-wrapper {
-  background-color: rgba(0, 0, 0, .4) !important
+  background-color: rgba(255, 255, 255, .63) !important
 }
 .bd-select .bd-select-options {
   background-color: rgba(0, 0, 0, .4) !important;
@@ -8069,10 +8094,10 @@ code {
   background-color: var(--main-color) !important
 }
 .bd-addon-list .bd-addon-card {
-  background-color: rgba(0, 0, 0, .4) !important
+  background-color: rgba(255, 255, 255, .63) !important
 }
 .bd-addon-list .bd-addon-header {
-  background-color: var(--backdrop-overlay)
+  background-color: rgba(255, 255, 255, 0) !important
 }
 .bd-button {
   background-color: var(--main-color)
